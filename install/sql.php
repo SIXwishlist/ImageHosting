@@ -37,7 +37,7 @@
         SiteName VARCHAR(255) DEFAULT 'Mint Images',
         Description VARCHAR(255) NOT NULL,
         Keywords VARCHAR(2000) NOT NULL,
-        AboutUs VARCHAR(65535) NOT NULL,
+        AboutUs VARCHAR(10000) NOT NULL,
         MaxImageSize VARCHAR(255) DEFAULT '1024',
         AllowedExtensions VARCHAR(500)
       )";
