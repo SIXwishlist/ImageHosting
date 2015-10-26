@@ -36,10 +36,10 @@
       $SQL = "CREATE TABLE IF NOT EXISTS Settings (
         SiteName VARCHAR(255) DEFAULT 'Mint Images',
         Description VARCHAR(255) NOT NULL,
-        Keywords VARCHAR(2000) NOT NULL,
-        AboutUs VARCHAR(10000) NOT NULL,
+        Keywords VARCHAR(2040) NOT NULL,
+        AboutUs VARCHAR(32640) NOT NULL,
         MaxImageSize VARCHAR(255) DEFAULT '1024',
-        AllowedExtensions VARCHAR(500)
+        AllowedExtensions VARCHAR(510)
       )";
 
       $CONN->exec($SQL);
@@ -70,7 +70,7 @@
         ID INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
         Title VARCHAR(255) NOT NULL,
         EmailAddress VARCHAR(255) NOT NULL,
-        Content VARCHAR(2000) NOT NULL,
+        Content VARCHAR(2040) NOT NULL,
         UserIP VARCHAR(255) NOT NULL,
         SENT_DATE TIMESTAMP
       )";
