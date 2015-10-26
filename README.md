@@ -18,8 +18,8 @@ Free simple image hosting script with admin panel.
   5. Set write premissions to folders **uploads**, and ***templates_c***
   
 # Template
-  This script uses Smarty templating system so you can change template witout changing PHP code. You need to know only HTML and CSS.
+  This script uses ***Smarty*** templating system so you can change template without changing PHP code. You need to know only HTML and CSS.
 
 # Admin Panel
-  In admin panel you can change settings, review and deleteimages and read messages from contact form.
+  In admin panel you can change settings, review and delete images and read messages from contact form.
   To get in Admin Panel go to ***www.yourdomain.com/admin***. 
