@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule    ^([A-Za-z0-9]+)/?$    show.php?ID=$1    [NC,L]
+</IfModule>
