@@ -7,7 +7,8 @@ Free simple image hosting script with admin panel.
   3. HTML Image Link
   4. BB Forum Image Link
   5. Public Image Gallery
-  6. Contact Form
+  7. About Us Page
+  8. Contact Form
 
 # Installation
   1. Download files and extract archive to root folder of your server.
